@@ -27,7 +27,7 @@ const Request =() => {
           </div>
        
       </div>
-      <div className='row number1'>
+      {/* <div className='row number1'>
         <div className='col-md-4'>
           <div className='card'>
               <div className='card-header'>
@@ -58,7 +58,7 @@ const Request =() => {
         </div>
           </div>
         
-      </div>
+      </div> */}
     </div>
   );
 }
