@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header{
+  background-color: lightgray; 
+}
+.header a{
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px 8px 6px 9px;
+  border-radius: 7px;
+  font-weight: 600;
+}
+.header p{
+  margin-left: 20px;
+  font-weight: 700;
+}
+.d-flex{
+  display: flex;
+  margin-top: 10px;
+}
+.customerdetails{
+  margin-top: 60px;
+}
+.number h1{
+  font-size: 50px;
+  }
+  .number p{
+    font-size: 35px;
+    color: lightgrey;
+    font-weight: 600;
+    }
+    .number1 .card-body h1{
+      font-size: 50px;
+    }
+    .number1 .card-header span{
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .number1 .card-header h4{
+      font-weight: 700;
+    }
+    .number1 .card-body span{
+      font-size: 30px;
+      color: lightgray;
+      font-weight: 700;
+    }
+    .time span{
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .card{
+      background-color: white;
+      padding-left: 15px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 15px;
+    }
