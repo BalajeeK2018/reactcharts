@@ -90,6 +90,9 @@ const LineChartNew = () => {
     
     return (
 
+      <div className='col-md-4'>
+        <div className='card'>
+          <div className='card-body'>
         <div id="chart">
             {/* <Chart options={options} series={series} type="line" height={350} /> */}
             <p>Chart has to render</p>
@@ -99,6 +102,7 @@ const LineChartNew = () => {
                 },
                 xaxis: {
                     categories: employeesalary,
+                    
                 },
                 dataLabels: {
                     style: {
@@ -117,6 +121,9 @@ const LineChartNew = () => {
                     data: employeedata
 
                 }]} type="bar" height={350} />
+        </div>
+        </div>
+        </div>
         </div>
 
     )

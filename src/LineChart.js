@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Chart from 'react-apexcharts';
 import axios from 'axios';
 import EmpData from './employees.json';
+import SimpleModal from './SimpleModal';
 const LineChartNew = () => {
 
   const [category, setCategory] = useState([]);
@@ -87,9 +88,12 @@ const LineChartNew = () => {
 
   return (
 
+    <div className='col-md-6'>
+      <div className='card'>
+        <div className='card-body'>
     <div id="chart">
-      {/* <Chart options={options} series={series} type="line" height={350} /> */}
       <p>Chart has to render</p>
+      <SimpleModal />
       <Chart options={{
         chart: {
           id: 'apex-chart'
@@ -103,8 +107,10 @@ const LineChartNew = () => {
           data: employeedata
 
         }]} type="line" height={350} />
+        </div>
     </div>
-
+    </div>
+    </div>
   )
 }
 

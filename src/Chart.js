@@ -28,10 +28,11 @@ export default class LineChart extends React.Component {
           title: {
             text: 'Product Trends by Month',
             align: 'left'
+            
           },
           grid: {
             row: {
-              colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+              colors: ['#2a3142'], // takes an array which will be repeated on columns
               opacity: 0.5
             },
           },
@@ -49,9 +50,14 @@ export default class LineChart extends React.Component {
     render() {
       return (
         
-
+  <div className='col-md-6'>
+    <div className='card'>
+      <div className='card-body'>
   <div id="chart">
 <Chart options={this.state.options} series={this.state.series} type="line" height={350} />
+</div>
+</div>
+</div>
 </div>
 );
 }

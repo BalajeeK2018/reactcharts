@@ -9,6 +9,7 @@ import AreaChart from './AreaChart';
 import VerticalBarGraph from './verticalBarGraph';
 import Request from './Request';
 import Header from './Header';
+import Select from './Select';
 
 //This Component is a child Component of Customers Component
 export default class Home extends Component {
@@ -27,28 +28,16 @@ export default class Home extends Component {
       
       
     <div className='container-fluid'>
-      
+      <Select />
     <div className="row customerdetails">
-      <div className='col-md-4'>
       <LineChart />
-      </div>
-      <div className='col-md-4'>
       <LineChartNew  />
-      </div>
-      <div className='col-md-4'>
       <DonutChart/>
       </div>
-      </div>
       <div className='row'>
-      <div className='col-md-4'>
       <BarChart/>
-      </div>
-      <div className='col-md-4'>
       <VerticalBarGraph/>
-      </div>
-      <div className='col-md-4'>
       <AreaChart/>
-      </div>
       </div>
       <Request />
     </div>

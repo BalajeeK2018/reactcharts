@@ -88,6 +88,9 @@ const colrs = ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f',
 ]
   return (
 
+    <div className='col-md-4'>
+      <div className='card'>
+        <div className='card-body'>
     <div id="chart">
       {/* <Chart options={options} series={series} type="line" height={350} /> */}
       <p>Chart has to render</p>
@@ -112,6 +115,9 @@ const colrs = ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f',
           data: employeedata
 
         }]} type="area" height={350} />
+    </div>
+    </div>
+    </div>
     </div>
 
   )

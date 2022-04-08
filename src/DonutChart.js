@@ -111,6 +111,9 @@ const LineChartNew = () => {
 
 return (
 
+  <div className='col-md-4'>
+    <div className='card'>
+      <div className='card-body'>
   <div id="chart">
     <Chart options={options} series={employeedata} type="donut" height={350} />
     <p>Chart has to render</p>
@@ -146,6 +149,9 @@ return (
         data: [12, 14, 13, 50]
 
       }]} /> */}
+  </div>
+  </div>
+  </div>
   </div>
 
 )

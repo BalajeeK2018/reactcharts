@@ -1,17 +1,32 @@
-import React , { Component}  from 'react';
+
+import React, { useState} from 'react';
+
 import './App.css';
+import BasicMenu from './BasicMenu';
 
 
 
-function Header() {
+
+
+
+
+
+
+const Header = () => {
+  
+
   return (
     
     <div className='container-fluid header'>
       <div className='d-flex'>
         <a >Dashboards</a>
+        <BasicMenu />
         <p>CRM(Clinical Rule Maintenance) Backend Service Dashboard</p>
+       
       </div>
+      
     </div>
+    
   
   );
 }
